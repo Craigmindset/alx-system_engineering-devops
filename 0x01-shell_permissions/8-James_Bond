@@ -1,3 +1,4 @@
 #!/bin/bash
-chmod ugo+0 hello
+chmod 007 hello
+
 
