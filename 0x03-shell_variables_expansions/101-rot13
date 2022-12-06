@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "You are in a twisty maze of passages, all alike." | rot13
+echo "ASCII" | rot13
