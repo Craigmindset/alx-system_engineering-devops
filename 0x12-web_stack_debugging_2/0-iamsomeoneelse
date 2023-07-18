@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
-# Check if the user passed an argument
-if [ -z "$1" ]; then
-  echo "You must pass a user name as an argument."
-  exit 1
-fi
+# A Bash script that accepts one argument
+# The script run the 'whoami' command under the user passed as an argument
 
-# Run the whoami command under the user passed as an argument
 sudo -u "$1" whoami
+
 
 
