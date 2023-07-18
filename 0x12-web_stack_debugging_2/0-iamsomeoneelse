@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 # Check if the user passed an argument
 if [ -z "$1" ]; then
   echo "You must pass a user name as an argument."
