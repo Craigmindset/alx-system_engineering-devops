@@ -1,4 +1,12 @@
-#!/usr/bin/env bash
-# Script that runs whoami command under an used passed
-sudo -u "$1" 'whoami'
+#!/bin/bash
+
+# Check if the user passed an argument
+if [ -z "$1" ]; then
+  echo "You must pass a user name as an argument."
+  exit 1
+fi
+
+# Run the whoami command under the user passed as an argument
+sudo -u "$1" whoami
+
 
